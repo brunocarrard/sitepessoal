@@ -1,0 +1,273 @@
+html,body
+{
+    
+    overflow-x: hidden; 
+}
+
+body {
+	font-family: 'Urbanist', sans-serif;
+	text-align: center;
+	display: inline-block;
+
+}
+
+header {
+	width: 150px 150px;
+	background: url("Design/bgheader.jpg");
+	text-align: center;
+	box-shadow: 0px 5px 5px rgb(0,0,0,0.7);
+}
+
+header img {
+	width: 30%;
+	padding: 15px;
+
+}
+
+main {
+	padding: 0 5%;
+}
+
+.titulocentralizado {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+
+.sobremim {
+	text-align: center;
+	padding: 0 0 15px 0;
+}
+
+.videoapresentacao {
+	padding-top: 15px;
+}
+
+main {
+	background: url("Design/texturapapel.png");
+}
+
+.habilidades {
+	text-align: center;
+
+}
+
+.habilidadeslista {
+	width: 80%;
+	padding: 15px 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.habilidadeslista li {
+	display: inline-block;
+	padding: 15px 20px;
+	text-align: center;
+}
+
+.habilidadeslista li p {
+	padding: 5px 0;
+	font-size: 1.3em;
+}
+
+.portifolio {
+	text-align: center;
+}
+
+.portifoliolista {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.portifoliolista li {
+	vertical-align: top;
+	display: inline-block;
+	padding: 15px 40px;
+}
+
+.portifoliolista li p {
+	padding: 5px 0;
+	font-size: 1.3em;
+}
+
+.portifoliolista li:hover img {
+	width: 110%;
+	transition-duration: 0.5s;
+	border: 2px solid #000000;
+	border-radius: 150px;
+	box-shadow: 0px 3px 5px rgb(0,0,0,0.5);
+}
+
+.portifolio li:hover p {
+	font-size: 1.6em;
+	text-shadow: 1px 1px 1px rgb(0,0,0,0.1);
+}
+
+.contato {
+	text-align: center;
+	padding: 0 0 15px 0;
+}
+
+.contatolista {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.contatolista li {
+	display: inline-block;
+	padding: 15px 40px;
+}
+
+.contatolista li p {
+	padding: 5px 0;
+	font-size: 1.3em;
+}
+
+
+.contatolista li:hover img {
+	width: 110%;
+	transition-duration: 0.5s;
+	border: 2px solid #000000;
+	border-radius: 150px;
+	box-shadow: 0px 3px 5px rgb(0,0,0,0.5);
+}
+
+.contatolista li:hover p {
+	font-size: 1.6em;
+	text-shadow: 1px 1px 1px rgb(0,0,0,0.1);
+}
+
+footer {
+	background: url("Design/footerbg.jpg");
+	text-align: center;
+	box-shadow: 0px -5px 5px rgb(0,0,0,0.7);
+	width: 100%;
+}
+
+.rodape {
+	text-align: center;
+	width: 100%;
+	padding: 25px 0 0 0;
+}
+
+.rodape li {
+	display: block;
+}
+
+.perfil  {
+	width: 20%;
+	vertical-align: center;
+}
+
+.assinatura {
+	width: 30%;
+}
+
+.pgfquemsou {
+	font-size: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15%;
+}
+
+.lista {
+	font-size: 17px;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 576px) {
+	html body {
+		width: 100%;
+	    height: 100%;
+	    margin: 0px;
+	    padding: 0px;
+	}
+
+	.videoapresentacao {
+		width: 100%;
+	}
+
+	.logo {
+		width: 70%;
+	}
+
+	.titulocentralizado {
+		font-size: 2em;
+	}
+
+	.embed {
+		padding-bottom: 75%;
+	}
+
+	.habilidadeslista {
+		width: 100%;
+	}
+
+	.habilidadeslista li {
+		padding: 0;
+		width: 50%;
+		margin: 15px 0;
+	}
+
+	.habilidadeslista li img {
+		width: 50%;
+	}
+
+	.habilidadeslista li p {
+		font-size: 0.8em;
+	}
+
+	.portifoliolista {
+		width: 100%;
+		padding-top: 30px;
+	}
+
+	.portifoliolista li {
+		padding: 0;
+		width: 50%;
+		margin: 0;
+	}
+
+	.portifoliolista li img {
+		width: 50%;
+	}
+
+	.portifoliolista li p {
+		font-size: 0.8em;
+	}
+
+	.contatolista {
+		width: 100%;
+		padding-top: 30px;
+	}
+
+	.contatolista li {
+		padding: 0;
+		width: 50%;
+		margin: 0;
+	}
+
+	.contatolista li img {
+		width: 50%;
+	}
+
+	.contatolista li p {
+		font-size: 0.8em;
+	}
+
+	.perfil {
+		width: 50%;
+	}
+
+	.assinatura {
+		width: 50%;
+	}
+}
